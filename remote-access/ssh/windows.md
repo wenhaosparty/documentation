@@ -13,6 +13,8 @@ Type the IP address of the Pi into the `Host Name` field and click the `Open` bu
 
 If you don't know the IP address, just type `hostname -I` in the Raspberry Pi command line. There are more ways to find your IP address [here](../ip-address.md).
 
+Remember, you will need to ENABLE SSH via "Menu > Preferences > Raspberry Pi Configuration > Interfaces > SSH" before a connection is possible.
+
 ##2. Connect
 When the connection works you'll see the security warning shown below; you can safely ignore it and click the Yes button. You'll only see this warning the first time when PuTTY connects to a Pi that it has never seen before.
 
